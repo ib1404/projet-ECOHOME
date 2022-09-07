@@ -1,0 +1,60 @@
+/*----FAQ----*/
+
+.global div {
+  background-color: white;
+  height: 200px;
+  width: 75%;
+  display:inline-block;
+  padding:8px;
+  box-sizing: border-box;
+  text-align:left;
+  margin:60px 40px 0px 40px; 
+  border-radius: 12px;
+  box-shadow: -10px 10px 0px 0px #25435B;
+
+
+}
+
+.global div:hover{
+  transform: scale(1.2);
+
+}
+
+
+.Question {
+  font-weight:550;
+  font-size: 20px;
+  
+
+}
+
+.Réponse {
+  font-size: 16px;  
+  margin-top: 5px;
+}
+
+.global {
+  height: 1800px;
+  text-align:center;
+  background-color:  #f2f2f2;
+  border-radius: 50px;
+  margin: 0px 30px;
+}
+
+
+.FAQ{
+  color: #747cdf;  
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: -2px -2px 2px #25435B;
+  height: 70px;
+  margin-top: 25px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1500px){
+  #global {
+  height: 800px;
+  }
+}
